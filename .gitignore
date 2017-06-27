@@ -1,5 +1,5 @@
-*.xcodeproj/
 /Packages
 /.build
 Switch
 Package.pins
+HAP.xcodeproj/xcuserdata

@@ -32,7 +32,7 @@ bedroomNightStand.lightbulb.on.onValueChange.append({ value in
     logger.info("bedroomNightStand changed value: \(String(describing: value))")
 })
 
-let device = Device(name: "Bridge", pin: "123-44-321", storage: storage, accessories: [
+let device = Device(name: "HAP-Bridge", pin: "123-44-321", storage: storage, accessories: [
     livingRoomLightbulb,
     bedroomNightStand,
     .Door(info: .init(name: "Front Door")),
